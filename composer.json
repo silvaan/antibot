@@ -1,0 +1,13 @@
+{
+    "name": "jrmiranda/antibot",
+    "description": "A Laravel Package to prevent bots in forms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jrmiranda",
+            "email": "s.jr@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

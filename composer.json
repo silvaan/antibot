@@ -1,6 +1,7 @@
 {
     "name": "jrmiranda/antibot",
     "description": "A Laravel Package to prevent bots in forms",
+    "type": "laravel",
     "license": "MIT",
     "authors": [
         {
@@ -8,6 +9,14 @@
             "email": "s.jr@live.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+          "JrMiranda\\AntiBot\\": "src"
+        }
+      },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+      "php": ">=5.5.9"
+    }
 }
